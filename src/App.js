@@ -46,7 +46,9 @@ class App extends Component {
                 </NavItem>
               </Nav>
               <Nav className="ml-auto" navbar>
-                <img src={logo} className="App-logo" alt="logo" />
+                <a href="https://reactjs.org/" target="out">
+                  <img src={logo} className="App-logo" alt="logo" />
+                </a>                
               </Nav>
             </Collapse>
           </Navbar>        

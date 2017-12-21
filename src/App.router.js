@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route,  } from 'react-router-dom';
-import { ProfessorLista } from './professor/Professor';
+//import { ProfessorLista } from './professor/Professor';
 import ProferssorRouter from './professor/Professor.router';
 
 class AppRouter extends Component {
@@ -10,7 +10,6 @@ class AppRouter extends Component {
             <div>
                 <Switch>
                     <Route exact path="/" />
-                    <Route path="/professor" component={ProfessorLista} />                
                 </Switch>
                 <ProferssorRouter />
             </div>
