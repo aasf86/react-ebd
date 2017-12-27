@@ -6,7 +6,8 @@ class ProfessorCrud extends Component {
     render() { 
         return (
            <div>   
-               <Nav /> 
+               <Nav {...this.props}/> 
+               <hr/>
                <div className="card-body">                
                     <form>
                         <div className="form-group">
@@ -37,7 +38,8 @@ class ProfessorLista extends Component {
     render() { 
         return (
            <div>   
-               <Nav /> 
+               <Nav {...this.props}/>
+               <hr/>
                <form>
                <table className="table table-hover table-striped table-dark">
                  <thead>

@@ -39,10 +39,10 @@ class App extends Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav navbar>
                 <NavItem>
-                  <Link to='/professor/' className="nav-link active">Professor</Link>
+                  <Link to='/professor/' className="nav-link active"><strong>Professor</strong></Link>
                 </NavItem>
                 <NavItem>
-                  <Link to='/' className="nav-link">Github</Link>
+                  <Link to='/' className="nav-link"><strong>Github</strong></Link>
                 </NavItem>
               </Nav>
               <Nav className="ml-auto" navbar>
